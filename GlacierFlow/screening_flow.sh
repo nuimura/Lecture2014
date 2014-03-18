@@ -11,8 +11,7 @@ echo -e "<SCREENING_FLOW>\n"
 #<parameter>
 
 ## Window size for filtering
-window_list=(7)
-# window_list=(7 19 37 51 73) ## If you prefer batch processing one by one
+window_list=(51)
 
 ## Direction threshold
 direction_th=60
@@ -20,9 +19,9 @@ direction_th=60
 
 #Input files as full path
 ## These files must have same grid size
-MASK_GTIFF_FILEPATH=gl_area_grid2.5.tif
-SCALAR_GTIFF_FILEPATH=disp20091202_20100117_scalar2.5.tif
-DIRECT_GTIFF_FILEPATH=disp20091202_20100117_direct2.5.tif
+MASK_GTIFF_FILEPATH=lirung_gl_area_extended_grid2.5.tif
+SCALAR_GTIFF_FILEPATH=disp20081024_20101203_scalar2.5.tif
+DIRECT_GTIFF_FILEPATH=disp20081024_20101203_direct2.5.tif
 
 #</parameter>
 
